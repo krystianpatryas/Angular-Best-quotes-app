@@ -1,27 +1,34 @@
-# BestQuotes
+# Aplikacja _"Najlepsze cytaty"_ na potrzeby edukacyjne kursu Udemy.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+**Mój kurs możesz znaleźć pod linkiem:** [Angular - kompletny kurs od podstaw](https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/?referralCode=58A71AA9B0E86A4D8D88)
 
-## Development server
+**Znadjziesz mnie też na FB:** [https://www.facebook.com/zacznijprogramowac](https://www.facebook.com/zacznijprogramowac)  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Wersja startowa sam kod HTML do implementacji:
+Github: [https://github.com/ZacznijProgramowac/best-quotes-app/tree/master](https://github.com/ZacznijProgramowac/best-quotes-app/tree/master)
 
-## Code scaffolding
+StackBlitz: [https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/master](https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/master)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Wersja startowa implementacja w jednym komponencie:
+Github: [https://github.com/ZacznijProgramowac/best-quotes-app/tree/001-one-component-implementation](https://github.com/ZacznijProgramowac/best-quotes-app/tree/001-one-component-implementation)
 
-## Build
+StackBlitz: [https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/001-one-component-implementation](https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/001-one-component-implementation)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Wymagania projektu
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular CLI: 9.0 lub wyżej
+- Node: 12.13.1 lub inna wersja LTS
 
-## Running end-to-end tests
+## Instalacja Angular CLI w specyficznej wersji
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`npm install -g @angular/cli`
 
-## Further help
+## Zainstalowane dodatki
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- prettier - formatowanie kodu
+- tslint-config-prettier - reguły dla tslint, które nie kłócą się z prettierem
+
+## Komendy
+
+- uruchomienie prettiera `npm run format`

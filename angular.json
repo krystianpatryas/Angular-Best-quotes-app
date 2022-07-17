@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "best-quotes": {
+    "angular-project-blueprint": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,12 +13,12 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/best-quotes",
+            "outputPath": "dist/angular-project-blueprint",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -44,7 +44,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -66,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "best-quotes:build"
+            "browserTarget": "angular-project-blueprint:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "best-quotes:build:production"
+              "browserTarget": "angular-project-blueprint:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "best-quotes:build"
+            "browserTarget": "angular-project-blueprint:build"
           }
         },
         "test": {
@@ -114,15 +113,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "best-quotes:serve"
+            "devServerTarget": "angular-project-blueprint:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "best-quotes:serve:production"
+              "devServerTarget": "angular-project-blueprint:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "best-quotes"
+  "defaultProject": "angular-project-blueprint"
 }
