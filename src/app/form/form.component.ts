@@ -10,7 +10,7 @@ export class FormComponent {
   @Output() newQuotation = new EventEmitter<Quotation>();
 
   // Pole do ukrywania i pokazywania formularza
-  showForm = true;
+  showForm = false;
 
   // pole quotation reprezentuje pojedynczy cytat
   quotation: Quotation = { author: '', sentence: '', votes: 0 };
