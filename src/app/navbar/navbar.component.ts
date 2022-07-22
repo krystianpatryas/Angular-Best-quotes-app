@@ -1,14 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
- 
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
 })
-export class NavbarComponent  {
-
+export class NavbarComponent {
   @Input()
   title: string;
-
 }

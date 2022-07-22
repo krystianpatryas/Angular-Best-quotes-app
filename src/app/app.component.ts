@@ -8,10 +8,8 @@ import { Quotation } from './models/quotation';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  // nowe pole reprezentującę listę cytatów
   quotes: Quotation[] = QUOTES;
 
-  // metoda obsługuje głosowanie na konkretny cytat
   addVote(quotation: Quotation, value: number) {
     quotation.votes += value;
   }

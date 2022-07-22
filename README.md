@@ -1,18 +1,13 @@
-# Aplikacja _"Najlepsze cytaty"_ na potrzeby edukacyjne kursu Udemy.
+# Aplikacja _"Najlepsze cytaty"_ na potrzeby edukacyjne kursu Udemy. 
+Projekcja treści przez ng-content
 
-**Mój kurs możesz znaleźć pod linkiem:** [Angular - kompletny kurs od podstaw](https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/?referralCode=58A71AA9B0E86A4D8D88)
+## Info:
+- mój kurs na Udemy [https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/](https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/?referralCode=58A71AA9B0E86A4D8D88)
+- blog: [https://zacznijprogramowac.net/](https://zacznijprogramowac.net/)
+- kanał YT: [https://www.youtube.com/ZacznijProgramowac](https://www.youtube.com/ZacznijProgramowac)
 
-**Znadjziesz mnie też na FB:** [https://www.facebook.com/zacznijprogramowac](https://www.facebook.com/zacznijprogramowac)  
-
-## Wersja startowa sam kod HTML do implementacji:
-Github: [https://github.com/ZacznijProgramowac/best-quotes-app/tree/master](https://github.com/ZacznijProgramowac/best-quotes-app/tree/master)
-
-StackBlitz: [https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/master](https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/master)
-
-## Wersja startowa implementacja w jednym komponencie:
-Github: [https://github.com/ZacznijProgramowac/best-quotes-app/tree/001-one-component-implementation](https://github.com/ZacznijProgramowac/best-quotes-app/tree/001-one-component-implementation)
-
-StackBlitz: [https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/001-one-component-implementation](https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/001-one-component-implementation)
+## Otwórz ten przykład przez StackBlitz
+StackBlitz: [https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/006-ng-content-projection](https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/006-ng-content-projection)
 
 
 ## Wymagania projektu
